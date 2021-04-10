@@ -328,7 +328,7 @@ li.item:hover{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 179.9%;
+    line-height: 210%;
 }
 
 .skills h1{
@@ -344,6 +344,25 @@ li.item:hover{
     margin:0 auto;
     padding-bottom: 3%;
 }
+
+
+
+
+
+
+
+
+/* WORK SECTION */
+
+.work h1{
+    margin: 0 auto;
+    padding-bottom: 2%;
+} 
+
+
+
+
+
 
 
 
