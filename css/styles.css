@@ -249,18 +249,101 @@ li.item:hover{
 
 /* AWARDS SECTION */
 
-.backgrounds.awards{
+.backgrounds.awardsbg{
     background: white;
 }
 
 .awards h1{
+    text-align: center;
     margin: 0 auto;
+    padding-bottom: 2%;
 }
+
 .awardsImg img{
     max-width: 239px;
     max-height: 95px;
 }
 
+.awardsLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+}
+
+.awards{
+    padding:5%;
+
+}
+
+
+
+
+
+
+
+
+
+/* SKILLS SECTION */
+
+.skillsGroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "visual interaction software coding"
+    ; 
+    background-color:#FFDFA5 ;
+}
+
+.backgrounds.skillsbg{
+    background-color: #FFDFA5;
+}
+
+.visual{
+    grid-area: visual;
+}
+
+.interaction{
+    grid-area: interaction;    
+}
+
+.software{
+    grid-area: software;
+}
+
+.coding{
+    grid-area: coding;
+}
+
+.skillsHeading{
+    grid-area: skillsHeading;
+}
+
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 179.9%;
+}
+
+.skills h1{
+    margin: 0 auto;
+    padding-bottom: 2%;
+} 
+
+.skills{
+    padding: 5%;
+}
+
+.skills h2{
+    margin:0 auto;
+    padding-bottom: 3%;
+}
 
 
 
