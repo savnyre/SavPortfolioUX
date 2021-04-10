@@ -256,7 +256,10 @@ li.item:hover{
 .awards h1{
     margin: 0 auto;
 }
-
+.awardsImg img{
+    max-width: 239px;
+    max-height: 95px;
+}
 
 
 
