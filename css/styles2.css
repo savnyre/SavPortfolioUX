@@ -71,7 +71,7 @@
     p{
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 150%;
     }
 
@@ -113,6 +113,9 @@
 
 
     /* NAVIGATION HEADER */
+
+
+
 
 
 
@@ -165,13 +168,20 @@
     
     }
 
+
+
+
+
+
     /* ABOUT ME SECTION */
     .backgrounds.about{
         background-color: #36113f;
     }
     
-    .aboutMe h6{
+    .aboutMeSecondary.rightContent h6{
         color: #ffffff;
+        margin: 0;
+        padding-top: 5%;
     }
     
     .aboutMe h1{
@@ -181,9 +191,54 @@
     
     .aboutMe p{
         color: white;
-        width: 500px;
-        line-height: 150%;
+        max-width: 900px;
+        line-height: 150%;    
     }
+
+    .aboutMeSecondary.rightContent p{
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+    
+    .aboutMeMain.leftContent p{
+        margin-bottom: 3%;
+    }
+
+    .aboutMeSecondary.rightContent h6{
+        margin:0 auto;
+    }
+
+
+
+
+    /* AWARDS SECTION */
+
+    .backgrounds.awardsbg{
+        background: white;
+    }
+    
+    .awards h1{
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 2%;
+    }
+
+    .awardsImg img{
+        max-width: 200px;
+        max-height: 200px;
+        padding:10%;
+    }
+
+    .awardsLogos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+
     
 
 }
