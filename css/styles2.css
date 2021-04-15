@@ -53,6 +53,8 @@
         margin-bottom: 3%;
         border-radius: 5px;
         border:none;
+        font-size: larger;
+        
     }
 
     .button1:hover{
@@ -211,6 +213,9 @@
 
 
 
+
+
+
     /* AWARDS SECTION */
 
     .backgrounds.awardsbg{
@@ -226,7 +231,8 @@
     .awardsImg img{
         max-width: 200px;
         max-height: 200px;
-        padding:10%;
+        margin: 10%;
+        padding: 5%;
     }
 
     .awardsLogos{
@@ -235,9 +241,75 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width: 800px;
+        max-width: 600px;
         margin: 0 auto;
     }
+
+
+
+
+
+    /* SKILLS SECTION */
+    .backgrounds.skillsbg{
+        background-color: #FFDFA5;
+    }
+
+    .skills ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 210%;
+    }
+    
+    .skills h1{
+        margin: 0 auto;
+        padding-bottom: 3%;
+    }
+
+    .skills h2{
+        margin:0 auto;
+        padding-bottom: 1%;
+    }
+
+    .skillsGroup div{
+        padding-bottom: 5%;
+    }
+    
+
+
+    /* WORK SECTION */
+   
+    .work h1{
+        margin: 0 auto;
+        padding-bottom: 2%;
+        color: white;
+    } 
+
+    .backgrounds.workbg{
+        background: #36103f
+    }
+    
+    .work{
+        padding: 5% 5% 7% 5%;
+    }
+    
+    .work img{
+        max-width: 882px ;
+    }
+    
+    .work h2{
+        color: whitesmoke;
+        margin-top: 5%;
+    }
+    
+    .work p{
+        color: whitesmoke;
+        margin-bottom: 4%;
+    }
+
 
     
 
