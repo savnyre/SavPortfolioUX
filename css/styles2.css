@@ -1,0 +1,210 @@
+/*Extra Small Devices*/
+@media only screen and (max-width: 600px){
+  
+}
+
+
+
+/*Small Devices*/
+@media only screen and (min-width: 600px){
+  /*GENERAL PAGE DESIGN*/
+
+  body{
+      font-family: 'Montserrat';
+      margin:0;
+  }
+
+  .button2{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight:600;
+    letter-spacing:0.235em;
+    text-transform: uppercase;
+    background-color: #36103f;
+    padding: 10px;
+    min-width: 294px;
+    justify-content: center;
+    min-height: 39px;
+    top:57px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    border:none;
+}
+
+    .button2:hover{
+        background-color: #febf4c;
+        color: #36103f;
+    }
+
+    .button1{
+        color: #36113f;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight:600;
+        letter-spacing:0.235em;
+        text-transform: uppercase;
+        background-color: #febf4c;
+        padding: 10px;
+        min-width: 294px;
+        justify-content: center;
+        min-height: 39px;
+        top:57px;
+        margin-bottom: 3%;
+        border-radius: 5px;
+        border:none;
+    }
+
+    .button1:hover{
+        background-color: #fbcccc;
+        color: #36103f;
+    }
+
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 47px;
+        line-height: 107.9%;
+        text-transform: uppercase;
+    }
+
+    p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 107.9%;
+        text-transform: uppercase;    
+    }
+
+    h3{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 107.9%;
+    }
+
+    h6{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 107.9%;
+    }
+
+    .button1 a{
+        text-decoration: none;
+        color: #36103f;
+    }
+
+    .button2 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    section{
+        padding: 5%;
+    }
+
+
+    /* NAVIGATION HEADER */
+
+
+
+    /* HERO SECTION */
+
+    .heroImg{
+        height: 886;
+        width: auto;
+        padding: 5%;
+    }
+
+    .heroGrid{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .heroLeft{
+        margin: 0 auto;
+    }
+
+    .heroText{
+        color: #fbcccc
+    }
+   
+    .heroText h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 107.9%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        margin: 0;
+    }
+    
+    .heroText p{
+        font-style: normal;
+        font-weight: 250;
+        font-size: 45px;
+        line-height: 107.9%;
+        margin: 0;
+    }
+    
+    .backgrounds.herocolor{
+        background-image: url(https://images.unsplash.com/photo-1477093782505-e10aaeb27c6d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1600&q=80);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+
+    /* ABOUT ME SECTION */
+    .backgrounds.about{
+        background-color: #36113f;
+    }
+    
+    .aboutMe h6{
+        color: #ffffff;
+    }
+    
+    .aboutMe h1{
+        color: white;
+        margin: 0;
+    }
+    
+    .aboutMe p{
+        color: white;
+        width: 500px;
+        line-height: 150%;
+    }
+    
+
+}
+
+
+
+/*Medium Devices*
+@media only screen and (min-width: 768px){
+  
+}
+
+
+
+Large  Devices
+@media only screen and (min-width: 992px){
+  
+}
+
+
+
+/*Extra Large Devices
+@media only screen and (min-width: 1200px){
+  
+} */
