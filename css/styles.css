@@ -161,7 +161,7 @@ h6{
 /* HERO SECTION */
 
 .heroImg{
-    height: 395px;
+    height: auto;
     width: auto;
     padding: 10%;
 }
@@ -181,6 +181,7 @@ h6{
 .heroText{
     grid-area: heroText;
     color: #fbcccc;
+    padding-left: 5%;
 }
 
 .heroText h1{
