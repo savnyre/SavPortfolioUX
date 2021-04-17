@@ -7,10 +7,11 @@
        
         <title>Savannah Nyre Portfolio</title>
         
-        <link href="css/styles3.css" rel="stylesheet">
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+        <link href="css/styles3.css" rel="stylesheet">
 
     </head>
     <body>
@@ -19,53 +20,54 @@
         
         
         <header>
-            <div >
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+            <div class="container" >
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    
+                    <div class="container d-flex" id="savtry" >
+                        <a class="navbar-brand flex-grow-100 sizing" href="#">
                             <img src="images\sav_logo_purple.svg" alt="Savannah Nyre Logo" width="100">
                         </a>
-                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler flex-shrink-1 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#work">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#aboutMe">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#getInTouch">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Download Resume</a>
-                                </li>
-                            </ul>
+                        <div class="container-fluid " id="savstuff">
+                            <div class="collapse navbar-collapse savtrys d-flex" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-2 mb-2 mb-lg-0 savtry flex-fill justify-content-end">
+                                    <li class="nav-item pe-2">
+                                        <a class="nav-link" href="#work">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item pe-2">
+                                        <a class="nav-link" href="#aboutMe">About</a>
+                                    </li>
+                                    <li class="nav-item pe-2">
+                                        <a class="nav-link" href="#getInTouch">Contact</a>
+                                    </li>
+                                    <li class="nav-item pe-2">
+                                        <a class="nav-link" href="#">Download Resume</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                
                 </nav>
             </div>
         </header>
 
-
-
-        
+      
     
-    
-
-
 
 
         <div class="backgrounds herocolor">
             <div class="content" id="heroImg">
-                <section class="heroImg"> 
-                    <div class="heroGrid">
-                        <img src="images\sav_logo_pink.svg" alt="Savannah Nyre Logo" width="500" class="heroLeft">
-                        <div class="heroText">
-                            <h1>SAVANNAH HOPE NYRE</h1>
-                            <p>UX/UI DESIGNER</p>
+                <section class="heroImg container col-xxl-8 px-4 py-5"> 
+                    <div class="heroGrid row flex-lg-row align-items-center g-5 py-5">
+                        <div  class="col-10 col-sm-8 col-md-6">
+                            <img src="images\sav_logo_pink.svg" alt="Savannah Nyre Logo" width="500" class="d-block mx-lg-auto img-fluid">
+                        </div>
+                        <div class="heroText col-10 col-sm-8 col-md-6">
+                            <h1 class="display-5 fw-bold lh-1 mb-3">SAVANNAH HOPE NYRE</h1>
+                            <p class="lead mb-4">UX/UI DESIGNER</p>
                         </div>
                     </div>
                 </section>
@@ -77,19 +79,23 @@
 
         <div class="backgrounds about">
             <div class="content" id="aboutMe">
-                <section class="aboutMe">
-                    <div class="aboutMeMain topRow leftContent">
-                        <h1>ABOUT ME</h1>
-                        <p>I enjoy designing responsive websites and prototyping them! I am skilled in the Adobe Suite, HTML & CSS, and Figma. I have great time-management and organizational skills. I am a design professional with a Bachelor of Fine Art (BFA) focused in Graphic Design, from Utah State University and have completed a User Experience and User Interface Design Bootcamp from the University of Utah.</p>
-                        <button type="button" class="button1 btn btn-primar btn-lg"><a href="" download>Download Resume</a></button>
-                    </div>
-                    <div class="aboutMeSecondary topRow rightContent">
-                        <h6>LOCATED</h6>
-                        <p>Salt Lake County, UT</p>
-                        <h6>CURRENT POSITION</h6>
-                        <p>UX/UI Designer</p>
-                        <p>Oozle Media</p>
-                        <p>Sandy, UT</p>
+                <section class="aboutMe container-flex">
+                    <div class="row justify-content-md-center">
+                        <div class="aboutMeMain topRow leftContent col-lg-6 col-md-8 ">
+                            <h1>ABOUT ME</h1>
+                            <p>I enjoy designing responsive websites and prototyping them! I am skilled in the Adobe Suite, HTML & CSS, and Figma. I have great time-management and organizational skills. I am a design professional with a Bachelor of Fine Art (BFA) focused in Graphic Design, from Utah State University and have completed a User Experience and User Interface Design Bootcamp from the University of Utah.</p>
+                            <button type="button" class="button1 btn btn-primary btn-lg">
+                                <a href="" download>Download Resume</a>
+                            </button>
+                        </div>
+                        <div class="aboutMeSecondary topRow rightContent col-md-4 px-4">
+                            <h6>LOCATED</h6>
+                            <p>Salt Lake County, UT</p>
+                            <h6>CURRENT POSITION</h6>
+                            <p>UX/UI Designer</p>
+                            <p>Oozle Media</p>
+                            <p>Sandy, UT</p>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -105,12 +111,24 @@
                     <div class="awardsHeading">
                         <h1>Awards</h1>
                     </div>
-                    <div class="awardsLogos">
-                        <div class="awardsImg awards01"><img src="images/awards_acp.jpg"></div>
-                        <div class="awardsImg awards02"><img src="images/awards_studentmedia.jpg"></div>
-                        <div class="awardsImg awards03"><img src="images/awards_cmbam.png"></div>
-                        <div class="awardsImg awards04"><img src="images/awards_spj.png"></div>
-                        <div class="awardsImg awards05"><img src="images/awards_utahpress.png"></div>
+                    <div class="awardsLogos container-flex">
+                        <div class="row">
+                            <div class="awardImgs col-md-4 col-lg col-sm-5 align-self-center mx-3 my-3">
+                                <img src="images/awards_acp.jpg" class="img-fluid awardImgsChild ">
+                            </div>
+                            <div class="awardImgs col-md-6 col-lg col-sm-5 align-self-center mx-3 my-3">
+                                <img src="images/awards_studentmedia.jpg" class="img-fluid awardImgsChild">
+                            </div>
+                            <div class="awardImgs col-md-6 col-lg col-sm-5 align-self-center mx-3 my-3">
+                                <img src="images/awards_cmbam.png" class="img-fluid awardImgsChild">
+                            </div>
+                            <div class="awardImgs col-md-4 col-lg col-sm-5 align-self-center mx-3 my-3">
+                                <img src="images/awards_spj.png" class="img-fluid awardImgsChild">
+                            </div>
+                            <div class="awardImgs col-md-6 col-lg col-sm-5 align-self-center mx-3 my-3">
+                                <img src="images/awards_utahpress.png" class="img-fluid awardImgsChild">
+                            </div>                    
+                        </div>
                     </div>
                 </section>
             </div>
@@ -123,11 +141,11 @@
 
         <div class="backgrounds skillsbg">
             <div class="content" id="skills">
-                <section class="skills">
-                    <h1 class="skillsHeading">Skills</h1>
-                    <div class="skillsGroup">
-                        <div class="visual">
-                            <h2>Visual</h2>
+                <section class="skills container-flex">
+                    <h1 class="skillsHeading pb-3">Skills</h1>
+                    <div class="skillsGroup row ">
+                        <div class="visual col-lg-3 col-md-6 ps-2 pb-4">
+                            <h2 class="pb-0">Visual</h2>
                             <ul class="visualList">
                                 <li>Style Guides</li>
                                 <li>User Flows</li>
@@ -138,8 +156,8 @@
                                 <li>Motion Design</li>
                             </ul>
                         </div>
-                        <div class="interaction">
-                            <h2>interaction</h2>
+                        <div class="interaction col-lg-3 col-md-6 ps-2 pb-4">
+                            <h2 class="pb-0">interaction</h2>
                             <ul class="interactionList">
                                 <li>Information Architechture</li>
                                 <li>Prototyping</li>
@@ -149,8 +167,8 @@
                                 <li>Survey Creation</li>
                             </ul>
                         </div>
-                        <div class="software">
-                            <h2>Software</h2>
+                        <div class="software col-lg-3 col-md-6 ps-2 pb-4">
+                            <h2 class="pb-0">Software</h2>
                             <ul class="softwareList">
                                 <li>Figma</li>
                                 <li>Adobe XD</li>
@@ -160,8 +178,8 @@
                                 <li>InDesign</li>
                             </ul>
                         </div>
-                        <div class="coding">
-                            <h2>Coding</h2>
+                        <div class="coding col-lg-3 col-md-6 ps-2 pb-4">
+                            <h2 class="pb-0">Coding</h2>
                             <ul class="codingList">
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -182,31 +200,58 @@
 
         <div class="backgrounds workbg">
             <div class="content" id="work">
-                <section class="work">
+                <section class="work container-flex">
                     <h1>Work</h1>
                     <div class="projects">
-                        <div class= "project01">
-                            <div clss="projectImage project01img"><img src="images/work_project01_lg.png"></div>
-                            <div class="projectText project01txt">
-                                <h2>UX Redesign: Citadel Colour App</h2>
-                                <p>Citadel Colour App is designed for Warhammer and other mini hobbyists who enjoy painting. This app allows users to search and save their favorite paints into their inventories or wishlist. The idea is amazing, but the interface was not. </p>
-                                <button type="button1" class="button1"><a href="project01.html">View Project</a></button>
+                        
+                        <div class= "project proj01 card bg-transparent" style="max-width: 1900px;">
+                            <div class="row g-0">
+                                <div class="projectImage project01img col-lg-6 col-md-6">
+                                    <img src="images/work_project01_lg.png" class="img-fluid">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xxl-4">
+                                    <div class="projectText project01txt card-body">
+                                        <h2 class="card-title">UX Redesign: Citadel Colour App</h2>
+                                        <p class="card-text">Citadel Colour App is designed for Warhammer and other mini hobbyists who enjoy painting. This app allows users to search and save their favorite paints into their inventories or wishlist. The idea is amazing, but the interface was not. </p>
+                                        <button type="button1" class="button1">
+                                            <a href="project01.html">View Project</a>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class= "project02">
-                            <div clss="projectImage project02img"><img src="images/work_project02_lg.png"></div>
-                            <div class="projectText project02txt" width="400px">
-                                <h2>UI RWD Redesign: Utah's Drivers License Division</h2>
-                                <p>Everyone hates going to the DMV, let’s not make everyone mad by having to just go online to their site too! Redesigning these sites can be hard, but we believe we solved a lot of their issues. Now people won’t have to struggle before going to the DMV. </p>
-                                <button type="button1" class="button1"><a href="project02.html">View Project</a></button>
+
+                        <div class= "project proj02 card bg-transparent" style="max-width: 1900px;">
+                            <div class="row g-0">
+                                <div class="projectImage project02img col-lg-6 col-md-6 col-sm-12">
+                                    <img src="images/work_project02_lg.png" class="img-fluid">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xxl-4">
+                                    <div class="projectText project02txt card-body">
+                                        <h2>UI RWD Redesign: Utah's Drivers License Division</h2>
+                                        <p>Everyone hates going to the DMV, let’s not make everyone mad by having to just go online to their site too! Redesigning these sites can be hard, but we believe we solved a lot of their issues. Now people won’t have to struggle before going to the DMV. </p>
+                                        <button type="button1" class="button1">
+                                            <a href="project02.html">View Project</a>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class= "project03">
-                            <div clss="projectImage project03img"><img src="images/work_project_03_lg.png"></div>
-                            <div class="projectText project03txt">
-                                <h2>UI RWD Redesign: Pioneer Theatre Compnay</h2>
-                                <p>Musicals, plays… and dog toys? This site was confusing to look at. Face masks and dog toys were featured more on the homepage than their plays! This needed to be fixed, as well as adding an online payment system so both young and old could enjoy the theatre! </p>
-                                <button type="button1" class="button1"><a href="project03.html">View Project</a></button>
+                        
+                        <div class= "project proj03 card bg-transparent" style="max-width: 1900px;">
+                            <div class="row g-0">
+                                <div class="projectImage project03img col-lg-6 col-md-6 col-sm-12">
+                                    <img src="images/work_project_03_lg.png" class="img-fluid">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xxl-4">
+                                    <div class="projectText project03txt card-body">
+                                        <h2>UI RWD Redesign: Pioneer Theatre Company</h2>
+                                        <p>Musicals, plays… and dog toys? This site was confusing to look at. Face masks and dog toys were featured more on the homepage than their plays! This needed to be fixed, as well as adding an online payment system so both young and old could enjoy the theatre! </p>
+                                        <button type="button1" class="button1">
+                                            <a href="project03.html">View Project</a>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -222,23 +267,28 @@
         <div class="backgrounds fancyfooter">
             <div class="content" id="getInTouch">
                 <section class="getInTouch">
-                    <h1 class= "touchTop">LET'S GET IN TOUCH!</h1>
-                    <div class="inTouchLeft">
-                        <img src="images\sav_logo_purple.svg" alt="Savannah Nyre Logo" width="300">
-                        <p>SAVANNAH HOPE NYRE</p>
-                    </div>
-                    <div class="inTouchRight">
-                        <div class="text">
-                            <p>EMAIL ME: savnyre@gmail.com</p>
-                            <p>FIND ME ON SOCIAL</p>
-                            <img>
-                            <img>
-                            <img>
-                        </div>
-                        <div class="buttonLayout">
-                            <button type="button" class="button2"><a href="" download>DOWNLOAD RESUME</a></button>
-                            <button type="button" class="button2"><a href="">UX/UI PORTFOLIO</a></button>
-                            <button type="button" class="button2"><a href="">DESIGN PORTFOLIO</a></button>
+                    
+                    <div class="container col-xxl-8 px-4 py-5">
+                        <div class="row  g-5 py-5">
+                            <h1 class= "touchTop">LET'S GET IN TOUCH!</h1>
+                            <div class="inTouchLeft col-10 col-sm-8 col-lg-6">
+                                <img src="images\sav_logo_purple.svg" alt="Savannah Nyre Logo" width="300" class="mx-lg-auto img-fluid">
+                                <p>SAVANNAH HOPE NYRE</p>
+                            </div>
+                            <div class="inTouchRight col-lg-4">
+                                <div class="text">
+                                    <p><strong>EMAIL ME:</strong>       savnyre@gmail.com</p>
+                                    <p><strong>FIND ME ON SOCIAL</strong></p>
+                                    <img>
+                                    <img>
+                                    <img>
+                                </div>
+                                <div class="buttonLayout">
+                                    <button type="button" class="button2"><a href="" download>DOWNLOAD RESUME</a></button>
+                                    <button type="button" class="button2"><a href="">UX/UI PORTFOLIO</a></button>
+                                    <button type="button" class="button2"><a href="">DESIGN PORTFOLIO</a></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -251,21 +301,22 @@
 
 
         <footer>
+            <div class="backgrounds footer">
+                <div class="content">
+                    <div>
+                        <p>2021 SAVANNAH NYRE   |    PORTFOLIO</p>
+                    </div>
+                </div>
+            </div>
 
         </footer>
 
 
 
 
-        <script src="javascript/index.js">
-        
-        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
         </script>
-
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 
 

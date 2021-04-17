@@ -5,6 +5,7 @@ body{
     margin: 0;
 }
 
+
 .content{
     max-width: 1440px;
     margin: 0 auto;
@@ -123,7 +124,7 @@ h6{
     justify-content: space-between;
 }
 
-.navigation li a:hover{
+.nav-item a:hover{
     color: #febf4c;
     background-color: transparent;
 }
