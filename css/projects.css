@@ -1,0 +1,208 @@
+
+/* GENERAL STYLES */
+
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 45px;
+    }
+}
+
+h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    text-transform: uppercase;
+
+}
+
+h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px; 
+    padding-top:2%;
+}
+
+h6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+section{
+    padding: 5%;
+}
+
+.subgen{
+    margin-top:3%;
+    
+}
+
+img{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+/* PROJECT OVERVIEW */
+
+.heroTextProj {
+    color:white;
+}
+
+
+
+
+
+
+/* PROJECT OVERVIEW */
+
+.projectOverviewBG {
+    background-color: red;
+}
+
+.projectOverviewSecondary h6{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.projectOverviewSecondary p{
+    margin: 0;
+    padding: 0;
+}
+
+.projectOverviewSecondary .noMarginTxt{
+    margin-top: 2%;
+    
+}
+
+.projectOverviewSecondary{
+    margin-left:5%;
+}
+
+@media only screen and (max-width: 982px){
+    .projectOverviewSecondary{
+        margin-left:0;
+    }
+    
+}
+
+
+
+
+
+/* WHY QUESTION */
+
+.whyQuestion {
+    background-color: orange;
+}
+
+
+
+
+
+
+/* SECTION 01 */
+
+.phase01BG {
+    background-color: yellow;
+}
+
+.interviewBG{
+    background-color: skyblue;
+    width: 100%;
+    padding: 5%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+/* SECTION 02 */
+
+.phase02BG  {
+    background-color: green;
+}
+
+
+
+
+
+
+/* SECTION 03 */
+
+.phase03BG {
+    background-color: blue;
+}
+
+.cardsgrouped img{
+    margin-bottom:3%;
+}
+
+
+
+
+
+/* SECTION 04 */
+
+.phase04BG {
+    background-color: indigo;
+}
+
+
+
+
+
+
+/* SECTION 05 */
+
+.phase05BG {
+    background-color: violet;
+}
+
+
+
+
+
+
+/* FINAL THOUGHTS SECTION */
+
+.finalthoughtsBG {
+    background-color: pink;
+}
+
+.thoughts p{
+    margin: 0;
+    padding: 0;
+}
+
