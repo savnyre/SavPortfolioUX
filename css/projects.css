@@ -72,12 +72,25 @@ img{
 
 
 
-/* PROJECT OVERVIEW */
+/* HERO IMAGE */
 
 .heroTextProj {
     color:white;
 }
 
+.heroImg{
+    height: auto;
+    width: auto;
+    padding: 10%;
+}
+
+.backgrounds.citadelcolours{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('images\citadelimages\04-06 Mockup.png');
+}
 
 
 
@@ -86,7 +99,8 @@ img{
 /* PROJECT OVERVIEW */
 
 .projectOverviewBG {
-    background-color: red;
+    background-color: #36103f;
+    color: #ffffff;
 }
 
 .projectOverviewSecondary h6{
@@ -122,7 +136,8 @@ img{
 /* WHY QUESTION */
 
 .whyQuestion {
-    background-color: orange;
+    background-color: #fbcccc;
+    color: #36103f;
 }
 
 
@@ -133,25 +148,43 @@ img{
 /* SECTION 01 */
 
 .phase01BG {
-    background-color: yellow;
+    background-color: #ececec;
+    color:#36103f
 }
 
 .interviewBG{
-    background-color: skyblue;
+    background-color: #36103f;
     width: 100%;
     padding: 5%;
-    margin-top: 2%;
+    color:#fbcccc;
+    margin-bottom:0;
 }
 
+.interview01 p{
+    font-size: larger;
+    font-style: italic;
+}
 
+.interview02 p{
+    font-size: larger;
+    font-style: italic;
+}
 
+.interview01{
+    padding: 5%;
+}
+
+.interview02{
+    padding: 5%;
+}
 
 
 
 /* SECTION 02 */
 
 .phase02BG  {
-    background-color: green;
+    background-color: #36103f;
+    color: #ffffff;
 }
 
 
@@ -162,7 +195,7 @@ img{
 /* SECTION 03 */
 
 .phase03BG {
-    background-color: blue;
+    background-color: #fbcccc;
 }
 
 .cardsgrouped img{
@@ -176,7 +209,7 @@ img{
 /* SECTION 04 */
 
 .phase04BG {
-    background-color: indigo;
+    background-color: white;
 }
 
 
@@ -187,7 +220,7 @@ img{
 /* SECTION 05 */
 
 .phase05BG {
-    background-color: violet;
+    background-color: lightgray;
 }
 
 
@@ -198,7 +231,8 @@ img{
 /* FINAL THOUGHTS SECTION */
 
 .finalthoughtsBG {
-    background-color: pink;
+    background-color: #36103f;
+    color: #ffffff;
 }
 
 .thoughts p{
@@ -206,7 +240,19 @@ img{
     padding: 0;
 }
 
+.thoughts h1{
+    color: #fbcccc;
+}
 
+.thoughts h3{
+    color: #fbcccc;
+}
+
+
+
+#getInTouch section{
+    padding-top:0;
+}
 
 
 
@@ -217,51 +263,8 @@ img{
 
 
 
- #loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 120px;
-    height: 120px;
-    margin: -76px 0 0 -76px;
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid #3498db;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-  }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  /* Add animation to "page content" */
-  .animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
-    animation-duration: 1s
-  }
-  
-  @-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 } 
-    to { bottom:0px; opacity:1 }
-  }
-  
-  @keyframes animatebottom { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
-  }
-  
-  #myDiv {
-    display: none;
-    text-align: center;
-  }
+
+
+
+
+ 
