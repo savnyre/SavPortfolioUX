@@ -147,21 +147,26 @@ img{
 }
 
 .interviewBG{
-    background-color: #36103f;
+    background-color: #FFDFA5;
     width: 100%;
     padding: 5%;
-    color:#fbcccc;
-    margin-bottom:0;
+    color:#000000;
+    margin: 0 auto;
+   
 }
 
 .interview01 p{
     font-size: larger;
     font-style: italic;
+    margin-bottom:0;
+    margin-right:0;
 }
 
 .interview02 p{
     font-size: larger;
     font-style: italic;
+    margin-bottom:0;
+    margin-right:0;
 }
 
 .interview01{
@@ -170,6 +175,40 @@ img{
 
 .interview02{
     padding: 5%;
+}
+
+.interview11{
+    padding-top: 0%;
+}
+
+.dldInterview03{
+    background-color: #FFDFA5;
+    width: 100%;
+    padding: 5%;
+    color:#000000;
+    margin-bottom:0;
+}
+
+.interview15{
+    background-color: #36103f;
+    width: 100%;
+    padding: 5%;
+    color:#FFDFA5;
+    margin-bottom:0;
+    padding: 5%;
+}
+
+.interview15 p{
+    font-size: larger;
+    font-style: italic;
+}
+
+.interviewBGs{
+    background-color: #36103f;
+    width: 100%;
+    padding: 5%;
+    color:#000000;
+    margin:0 auto;
 }
 
 
@@ -214,7 +253,7 @@ img{
 /* SECTION 05 */
 
 .phase05BG {
-    background-color: lightgray;
+    background-color: #FFDFA5;
 }
 
 
