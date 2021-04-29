@@ -66,6 +66,7 @@ section{
 img{
     margin-top: 2%;
     margin-bottom: 5%;
+    height: auto;
 }
 
 
@@ -83,6 +84,8 @@ img{
     width: auto;
     padding: 10%;
 }
+
+
 
 
 
